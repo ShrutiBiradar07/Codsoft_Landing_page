@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-store"></i>
+                <h1>  The Little Boutique</h1>
+            </div>
+            <ul>
+                <li class="active"><a href="a">Home</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Shop</a></li>
+                <li><a href="a">Contact</a></li>
+                <li><a href="a"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="div-text">
+                <h5>MADE ESPECIALLY FOR YOUR BABY WITH LOVE</h5>
+                <h3>The Little Boutique</h3>
+                <h1>Small Designer Clothes</h1>
+                <p>Gift your kids a beautiful present with us which will<br>make them Happy and make them look more Charming.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="div-img">
+                <img id="big-img" src="Dress1.jpeg" alt="">
+            </div>
+            <div class="small-img">
+                <img onclick="myDress(this.src)" src="Dress1.jpeg" alt="">
+                <img onclick="myDress(this.src)" src="Dress2.jpeg" alt="">
+                <img onclick="myDress(this.src)" src="Dress3.jpeg" alt="">
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        let bigImage = document.getElementById('big-img');
+
+        function myDress(dress) {
+            bigImage.src = dress
+        }
+    </script>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    <div class="circle8"></div>
+    <div class="circle9"></div>
+
+</body>
+
+</html>
